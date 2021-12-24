@@ -1,11 +1,11 @@
 # 按需连接配置
 
 
-![设置中按需连接部分](../.gitbook/assets/image (2).png)
+![设置中按需连接部分](../assets/on-demand-config.png)
 
 ### Wi-Fi 列表配置说明
 
-![按需连接中Wi-Fi列表部分](../.gitbook/assets/image.png)
+![按需连接中Wi-Fi列表部分](../assets/on-demand-wifi.png)
 
 可通过右上角 + 添加SSID。在 `Any` 模式下无需添加SSID。
 
