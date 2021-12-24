@@ -11,6 +11,7 @@
 
 * [获取远程配置](basic-usage/remote-config.md)
 * [配置文件管理](basic-usage/config-management.md)
+* [订阅转换](basic-usage/sub-convert.md)
 
 ## 进阶使用 <a href="#advanced-usage" id="advanced-usage"></a>
 
