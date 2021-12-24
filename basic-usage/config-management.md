@@ -4,8 +4,8 @@
 
 ### 左划
 
-![从左到右分别为：删除、编辑、更新](../.gitbook/assets/image (4).png)
+![从左到右分别为：删除、编辑、更新](../.gitbook/assets/config-swipe-left.png)
 
 ### 右划
 
-![从左到右分别为：编辑名称、复制配置](../.gitbook/assets/image (5).png)
+![从左到右分别为：编辑名称、复制配置](../.gitbook/assets/config-swipe-right.png)

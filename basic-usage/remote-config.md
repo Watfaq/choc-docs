@@ -18,10 +18,10 @@
 
 1.  在 Choc 主页面，选中右上角的 `Tray` 图标
 
-    ![](../.gitbook/assets/image (6).png)
+    ![](../.gitbook/assets/config-tray.png)
 2.  在”输入配置文件下载地址“中填写您的提供商提供的订阅链接
 
-    ![](../.gitbook/assets/image (1).png)
+    ![](../.gitbook/assets/config-download.png)
 3.  在配置文件列表中选中您下载的配置
 
-    ![](../.gitbook/assets/image (3).png)
+    ![](../.gitbook/assets/config-downloaded.png)
