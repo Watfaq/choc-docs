@@ -129,4 +129,4 @@ rewrite:
 
 如有疑问，可通过文章顶部邮件/Telegram 用户群组反馈。
 
-更多 MitM 相关功能会在新版本中逐步添加。
+也可通过支持 Web3 的浏览器访问本文部署于 IPFS 上的版本：http://choc.watfaq.eth/advanced-usage/mitm.html
