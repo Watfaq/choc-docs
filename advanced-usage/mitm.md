@@ -5,7 +5,7 @@ _此功能目前仍属于实验性功能，如配置后连接出现问题请暂�
 {% endhint %}
 
 {% hint style="info" %}
-_当前版本的 MitM 支持对 HTTP(S) 请求的 URL 进行匹配以及 URL Rewrite，后续版本可能会增加 Headers 匹配/改写、运行脚本等高级功能。_
+_当前版本的 MitM 支持对 HTTP(S) 请求的 URL 进行匹配以及 URL Rewrite，后续版本可能会增加 Headers 匹配/改写、运行脚本等更多功能。_
 {% endhint %}
 
 
