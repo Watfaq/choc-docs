@@ -29,10 +29,10 @@ _当前版本的 MitM 支持对 HTTP(S) 请求的 URL 进行匹配以及 URL Rew
 
 #### 创建全新 CA
 
-* macOS 参考：https://support.apple.com/zh-cn/guide/keychain-access/kyca2686/mac
+* macOS 参考：[https://support.apple.com/zh-cn/guide/keychain-access/kyca2686/mac](https://support.apple.com/zh-cn/guide/keychain-access/kyca2686/mac)
 * Linux/Windows 参考：
-    - 使用 cfssl 生成 PEM 格式证书和密钥：https://rob-blackbourn.medium.com/how-to-use-cfssl-to-create-self-signed-certificates-d55f76ba5781
-    - 将 PEM 格式转换为 PFX：https://stackoverflow.com/a/808742/1109167
+    - 使用 cfssl 生成 PEM 格式证书和密钥：[https://rob-blackbourn.medium.com/how-to-use-cfssl-to-create-self-signed-certificates-d55f76ba5781](https://rob-blackbourn.medium.com/how-to-use-cfssl-to-create-self-signed-certificates-d55f76ba5781)
+    - 将 PEM 格式转换为 PFX：[https://stackoverflow.com/a/808742/1109167](https://stackoverflow.com/a/808742/1109167)
 
 > 对于大部分用户，您可能已有可用 CA 证书。如您有安全性顾虑，建议创建个人 CA 证书。
 
@@ -54,7 +54,7 @@ $  base64 /path/to/your.p12
 
 上一步准备好的 pfx 证书发送到手机（通过邮件/AirDrop等方式并在手机中打开安装该证书。
 
-安装好后，进入系统设置，手动信任该证书。参考：https://support.apple.com/zh-cn/HT204477#:~:text=If%20you%20want%20to%20turn,Mobile%20Device%20Management%20(MDM).
+安装好后，进入系统设置，手动信任该证书。参考：[https://support.apple.com/zh-cn/HT204477#:~:text=If%20you%20want%20to%20turn,Mobile%20Device%20Management%20(MDM)](https://support.apple.com/zh-cn/HT204477#:~:text=If%20you%20want%20to%20turn,Mobile%20Device%20Management%20(MDM))
 
 至此，准备工作结束。
 
@@ -117,16 +117,16 @@ rewrite:
     - 自定义 status code：例如，200/404 等
 * target：仅当 action 设置为 3xx status code 时，会设置 Location header 为 target 值，实现 URL 重定向
 
-更多规则可**参考**，并更具实际使用场景做出调整：https://raw.githubusercontent.com/Watfaq/choc-configs/main/samples/rewrite.yaml
+更多规则可**参考**，并更具实际使用场景做出调整：[https://raw.githubusercontent.com/Watfaq/choc-configs/main/samples/rewrite.yaml](https://raw.githubusercontent.com/Watfaq/choc-configs/main/samples/rewrite.yaml)
 
 ## 参考链接
 
-* https://en.wikipedia.org/wiki/Certificate_authority
-* https://en.wikipedia.org/wiki/Man-in-the-middle_attack
-* https://datatracker.ietf.org/doc/html/rfc7231#section-6
+* [https://en.wikipedia.org/wiki/Certificate_authority](https://en.wikipedia.org/wiki/Certificate_authority)
+* [https://en.wikipedia.org/wiki/Man-in-the-middle_attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
+* [https://datatracker.ietf.org/doc/html/rfc7231#section-6](https://datatracker.ietf.org/doc/html/rfc7231#section-6)
 
 ---
 
 如有疑问，可通过文章顶部邮件/Telegram 用户群组反馈。
 
-也可通过支持 Web3 的浏览器访问本文部署于 IPFS 上的版本：http://choc.watfaq.eth/advanced-usage/mitm.html
+也可通过支持 Web3 的浏览器访问本文部署于 IPFS 上的版本：[http://choc.watfaq.eth/advanced-usage/mitm.html](http://choc.watfaq.eth/advanced-usage/mitm.html)
