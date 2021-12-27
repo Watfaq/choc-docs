@@ -5,7 +5,7 @@
 ## 了解 Choc <a href="#getting-started" id="getting-started"></a>
 
 * [Choc 应用介绍](getting-started/introduction.md)
-* [最近更新](getting-started/changlogs.md)
+* [最近更新](CHANGELOG.md)
 
 ## 基本使用 <a href="#basic-usage" id="basic-usage"></a>
 
