@@ -16,3 +16,4 @@
 ## 进阶使用 <a href="#advanced-usage" id="advanced-usage"></a>
 
 * [按需连接配置](advanced-usage/on-demand.md)
+* [MitM 以及 HTTP(S) Rewrite](advanced-usage/mitm.md)
