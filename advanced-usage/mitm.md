@@ -115,7 +115,16 @@ rewrite:
     - reject：直接关闭连接
     - reject-image：修改该请求的响应，返回 1x1 像素大小的图片文件
     - 自定义 status code：例如，200/404 等
+    - header：会替换请求 header 中的 Host 字段
 * target：仅当 action 设置为 3xx status code 时，会设置 Location header 为 target 值，实现 URL 重定向
+  - 可以使用正则表达式引用例如：
+    ```yaml
+    - regex: ^https?:\/\/(www.)?jd\.com\/(.*)
+      match: url
+      action: "302"
+      target: https://www.jd.com/$2
+    ```
+  - 关于正则表达式：[https://github.com/google/re2/wiki/Syntax](https://github.com/google/re2/wiki/Syntax)
 
 更多规则可**参考**，并更具实际使用场景做出调整：[https://raw.githubusercontent.com/Watfaq/choc-configs/main/samples/rewrite.yaml](https://raw.githubusercontent.com/Watfaq/choc-configs/main/samples/rewrite.yaml)
 
