@@ -31,3 +31,23 @@ description: 常见问题
 ## 能替代其他软件吗？
 
 请看第一个问题。
+
+## 如何实现 Safari 搜索跳转到 Google.com ？
+
+参考配置片段：
+
+```yaml
+- regex: ^http://www.google.cn
+  match: url
+  action: "header"  # rewrite request header Host
+  target: http://www.google.com
+```
+
+或者：
+
+```yaml
+- regex: ^https?://www.google.cn/(.*)
+  match: url
+  action: "302"
+  target: https://www.google.com/$1  # redirect with params
+```
