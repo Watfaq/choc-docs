@@ -51,3 +51,13 @@ description: 常见问题
   action: "302"
   target: https://www.google.com/$1  # redirect with params
 ```
+
+## 为什么主页没有显示订阅用量信息？
+
+显示订阅信息需要订阅的 URL 在返回的数据中包含该订阅的使用情况。
+
+如您的订阅在使用订阅转换后无法显示用量信息，可在配置文件第一行加入以下配置：
+
+```
+### subscription-url = 替换为你自己的订阅地址
+```
