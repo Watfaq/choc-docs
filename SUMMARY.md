@@ -17,6 +17,7 @@
 
 * [按需连接配置](advanced-usage/on-demand.md)
 * [MitM 以及 HTTP(S) Rewrite](advanced-usage/mitm.md)
+* [支持的 URL Scheme](advanced-usage/url-scheme.md)
 
 ## 💁 帮助 <a href="#help" id="help"></a>
 
