@@ -4,6 +4,23 @@ description: 此页面将会展示最近版本（仅正式版）的更新内容�
 
 # 最近更新
 
+## 1.3.2(102)
+
+### Added
+- New deeplink supports:
+  - choc://start
+  - choc://stop
+  - choc://restart  
+
+- open config file from share sheet
+- IPv6 config honors config file
+### Changed
+- Upgrade clash core to latest version 1.9.0
+
+### Fixed
+- crashes switching OnDemand too fast in certain cases
+
+
 ## 1.3.1(95)
 
 ### Features
