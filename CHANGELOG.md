@@ -4,7 +4,7 @@ description: 此页面将会展示最近版本（仅正式版）的更新内容�
 
 # 最近更新
 
-## 1.3.3(
+## 1.3.3
 
 ### Added
 - support clash tun mode
